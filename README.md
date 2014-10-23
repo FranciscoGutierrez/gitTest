@@ -110,7 +110,7 @@ $ git push
 Por último vamos a Github y dentro de tu repositorio "gitTest" en tu cuenta de git hacemos pull request presionando el siguiente ícono de color **verde**:
 
 
-<img src="http://cl.ly/image/0d3j1j241u21/Screen%20Shot%202014-10-23%20at%206.46.38%20PM.png" alt="alt text" style="width:200px;height:auto">
+<img src="http://cl.ly/image/2f1L0T220k3B/fork.png" alt="alt text" style="width:200px;height:auto">
 
 Seguimos los pasos y enviamos el Pull Request.
 
