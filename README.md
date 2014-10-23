@@ -88,13 +88,16 @@ $ git push
 ## Contribuir mediante Fork & Pull
 Primero que nada hay que hacer Fork al repositorio:
 https://github.com/FranciscoGutierrez/gitTest
+<img src="http://cl.ly/image/2k1A2s3Q2R2z/Screen%20Shot%202014-10-23%20at%206.45.01%20PM.png
+" alt="alt text" style="width:200px;height:auto">
 
-Después ya dentro de nuestro repositorio se debe hacer clone:
+Fork hace una copia del repositorio a su cuenta de Git, ya dentro de tu cuenta de Git debes seguir los siguientes pasos para realizar un pull request:
 
 ```shell
 $ git clone https://github.com/<git-my-username>/gitTest.git
 $ cd gitTest
 # Cambiamos de directorio y agregamos un archivo <my-id>.txt
+$ vim <my.id>.txt
 # dentro del archivo escriban su nombre.
 $ git status
 # Checamos el estado de Git.
@@ -102,10 +105,12 @@ $ git commit -a -m "Escribí mi nombre"
 $ git push
 # Hacemos commit y push.
 ```
-Por último vamos a Github y dentro de nuestro repositorio "gitTest" hacemos pull request presionando el siguiente ícono de color **verde**:
+> **Importante**: El archivo debe llevar como nombre tu id y adentro de este archivo debe ir escrito tu nombre.
+
+Por último vamos a Github y dentro de tu repositorio "gitTest" en tu cuenta de git hacemos pull request presionando el siguiente ícono de color **verde**:
 
 
-<img src="http://f.cl.ly/items/172X421O1Y1f1k3a0i3Y/Screen%20Shot%202014-10-23%20at%206.29.45%20PM.png" alt="alt text" style="width:200px;height:auto">
+<img src="http://cl.ly/image/0d3j1j241u21/Screen%20Shot%202014-10-23%20at%206.46.38%20PM.png" alt="alt text" style="width:200px;height:auto">
 
 Seguimos los pasos y enviamos el Pull Request.
 
