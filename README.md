@@ -107,7 +107,7 @@ $ git push
 ```
 > **Importante**: El archivo debe llevar como nombre tu id y adentro de este archivo debe ir escrito tu nombre.
 
-Por último vamos a Github y dentro de tu repositorio "gitTest" en tu cuenta de git hacemos pull request presionando el siguiente ícono de color **verde**:
+Por último vamos a Github y dentro de tu repositorio "gitTest", en tu cuenta de git, hacemos pull request presionando el siguiente ícono de color **verde**:
 
 
 <img src="http://cl.ly/image/2f1L0T220k3B/fork.png" alt="alt text" style="width:200px;height:150px">
