@@ -9,7 +9,7 @@ Hola, esta es una pequeña guía con el objetivo de introducirse a Git.
 
 **Brew** es un administrador de paquetes para Mac. (Altamente recomendado).
 
-##Iniciar Git, First Commit.
+##Iniciar Git, First Commit
 Vamos a trabajar con Git, primero crearemos el repositorio.
 ```shell
 $ git --version #Checar la existencia de Git
@@ -22,9 +22,9 @@ A continuación agregamos un archivo:
 ```shell
 $ vim HelloWorld.txt
 ```
-*Para este caso utilizaré Vim que es un editor en Terminal pero pueden ocupar cualquier editor, solo asegúrense de guardar el archivo en la carpeta. Para los mas aventurados, Vim es un editor potente y muy interesante.*
+>*Para este caso utilizaré Vim que es un editor en Terminal pero pueden ocupar cualquier editor, solo asegúrense de guardar el archivo en la carpeta. Para los mas aventurados, Vim es un editor potente y muy interesante.*
 
-Dentro de **Vim** escribimos "Hola mundo" presionamos <kbd>esc</kbd> y a continuación <kbd>:w</kbd> para guardar cambios y despues <kbd>:q</kbd> para salir.
+>Dentro de **Vim** escribimos "Hola mundo" presionamos <kbd>esc</kbd> y a continuación <kbd>:w</kbd> para guardar cambios y despues <kbd>:q</kbd> para salir.
 
 Ahora revisamos el directorio:
 ```shell
@@ -41,7 +41,7 @@ $ git commit -a -m "Primer commit, HelloWorld"
 * <kbd>-a</kbd> Toma en cuenta todos los archivos cambiados.
 * <kbd>-m</kbd> Vamos a enviar un mensaje que describa el commit.
 
-## Push a un repositorio remoto (Github).
+## Push a un repositorio remoto (Github)
 1. Copiar la URL del repositorio.
 2. En mi caso: https://github.com/FranciscoGutierrez/gitTest.git
 
@@ -58,7 +58,7 @@ $ git pull origin master
 $ git push origin master
 # para enviar los cambios del repositorio local al remoto.
 ```
-## Commit, Push, Commit, Push.
+## Commit, Push, Commit, Push
 Ahora modifiquemos nuevamente el archivo local:
 ```shell
 $ vim HelloWorld.txt
@@ -71,7 +71,7 @@ $ git commit -a -m "Se agregó una nueva línea"
 $ git push
 # ¡Ya estamos trabajando con Git y GitHub!
 ```
-## Add, Commit, Push.
+## Add, Commit, Push
 Ahora agreguemos un nuevo archivo:
 ```shell
 $ vim NuevoArchivo.txt
@@ -84,3 +84,20 @@ $ git status
 $ git commit -a -m "Se agregó un nuevo archivo"
 $ git push
 ```
+
+## Contribuir mediante Fork & Pull
+Primero que nada hay que hacer Fork al repositorio:
+https://github.com/FranciscoGutierrez/gitTest
+```shell
+$ git clone https://github.com/<git-my-username>/gitTest.git
+$ cd gitTest
+# Cambiamos de directorio y agregamos un archivo <mi-id>.txt
+# dentro del archivo escriban su nombre.
+$ git status
+# Checamos el estado de Git.
+$ git commit -a -m "Escribí mi nombre"
+$ git push
+```
+
+## I'm using Git, ask me how!
+**Facebook**: fsalvador23@gmail.com
