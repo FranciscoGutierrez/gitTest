@@ -9,7 +9,7 @@ Hola, esta es una pequeña guía con el objetivo de introducirse a Git.
 
 **Brew** es un administrador de paquetes para Mac. (Altamente recomendado).
 
-##Iniciar Git, first commit.
+##Iniciar Git, First Commit.
 Vamos a trabajar con Git, primero crearemos el repositorio.
 ```shell
 $ git --version #Checar la existencia de Git
@@ -71,7 +71,7 @@ $ git commit -a -m "Se agregó una nueva línea"
 $ git push
 # ¡Ya estamos trabajando con Git y GitHub!
 ```
-## Commit, Push, Commit, Push.
+## Add, Commit, Push.
 Ahora agreguemos un nuevo archivo:
 ```shell
 $ vim NuevoArchivo.txt
@@ -81,6 +81,6 @@ $ git add .
 #Le decimos a Git que añada todos los archivos.
 $ git status
 # Checamos el estado de Git.
+$ git commit -a -m "Se agregó un nuevo archivo"
 $ git push
-# ¡Ya estamos trabajando con Git y GitHub!
 ```
