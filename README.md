@@ -1,5 +1,5 @@
-# Introduction to Git
-Hola a todos, esta es una pequeña guía con el objetivo de introducirse a Git.
+# Introducción a Git
+Hola, esta es una pequeña guía con el objetivo de introducirse a Git.
 ##¡Manos a la obra!
 ####Instalar Git:
 * **Ubuntu**: $ apt-get install git
@@ -7,11 +7,10 @@ Hola a todos, esta es una pequeña guía con el objetivo de introducirse a Git.
 * **Windows**: http://git-scm.com/download/win
 * **Mac**: $ brew install git
 
-_ **Brew** es un administrador de paquetes para Mac. (Altamente recomendado)._
+**Brew** es un administrador de paquetes para Mac. (Altamente recomendado).
 
 ##Iniciar Git, first commit.
 Vamos a trabajar con Git, primero crearemos el repositorio.
-**Mac:**
 ```shell
 $ git --version #Checar la existencia de Git
 $ mkdir GitTest #Creamos una carpeta.
@@ -22,6 +21,7 @@ $ git status    #Checamos el estado de Git.
 A continuación agregamos un archivo:
 ```shell
 $ vim HelloWorld.txt
+#Para este caso utilizaré Vim que es un editor en Terminal, pero pueden ocupar cualquier editor, solo asegúrense de guardar el archivo en la carpeta. Para los mas aventurados, Vim es un editor potente y muy interesante.
 ```
 Dentro de **Vim** escribimos "Hola mundo" presionamos <kbd>esc</kbd> y a continuación <kbd>:w</kbd> para guardar cambios y despues <kbd>:q</kbd> para salir.
 
@@ -53,7 +53,17 @@ git remote -v
 Una vez que conocemos el repositorio remoto, debemos integrar ambos repositorios:
 ```shell
 $ git pull origin master
-# para traer el repositorio remoto al repositorio local.
+# para traer el contenido del repositorio remoto al repositorio local.
 $ git push origin master
 # para enviar los cambios del repositorio local al remoto.
+```
+## Commit, Push, Commit, Push.
+Ahora modifiquemos nuevamente el archivo local:
+
+```shell
+$ vim HelloWorld.txt
+# Ahora queremos que el archivo diga, "Me gusta mucho Git."
+# recuerda esc - :w - :q para guardar cambios y salir en Vim.
+$ git status
+# Siempre checamos el estado de Git.
 ```
