@@ -102,11 +102,12 @@ $ git commit -a -m "Escribí mi nombre"
 $ git push
 # Hacemos commit y push.
 ```
-Por último vamos a Github y dentro de nuestro repositorio "gitTest" hacemos pull request presionando el siguiente ícono de color verde:
+Por último vamos a Github y dentro de nuestro repositorio "gitTest" hacemos pull request presionando el siguiente ícono de color **verde**:
+
+
+<img src="http://f.cl.ly/items/172X421O1Y1f1k3a0i3Y/Screen%20Shot%202014-10-23%20at%206.29.45%20PM.png" alt="alt text" style="width:200px;height:auto">
 
 Seguimos los pasos y enviamos el Pull Request.
 
-
-
-## I'm using Git, ask me how!
+## Contacto:
 **Facebook**: fsalvador23@gmail.com
