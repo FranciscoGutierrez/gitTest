@@ -21,8 +21,9 @@ $ git status    #Checamos el estado de Git.
 A continuación agregamos un archivo:
 ```shell
 $ vim HelloWorld.txt
-#Para este caso utilizaré Vim que es un editor en Terminal, pero pueden ocupar cualquier editor, solo asegúrense de guardar el archivo en la carpeta. Para los mas aventurados, Vim es un editor potente y muy interesante.
 ```
+*Para este caso utilizaré Vim que es un editor en Terminal pero pueden ocupar cualquier editor, solo asegúrense de guardar el archivo en la carpeta. Para los mas aventurados, Vim es un editor potente y muy interesante.*
+
 Dentro de **Vim** escribimos "Hola mundo" presionamos <kbd>esc</kbd> y a continuación <kbd>:w</kbd> para guardar cambios y despues <kbd>:q</kbd> para salir.
 
 Ahora revisamos el directorio:
@@ -59,11 +60,27 @@ $ git push origin master
 ```
 ## Commit, Push, Commit, Push.
 Ahora modifiquemos nuevamente el archivo local:
-
 ```shell
 $ vim HelloWorld.txt
 # Ahora queremos que el archivo diga, "Me gusta mucho Git."
 # recuerda esc - :w - :q para guardar cambios y salir en Vim.
 $ git status
 # Siempre checamos el estado de Git.
+# Git me dice que hay cambios.
+$ git commit -a -m "Se agregó una nueva línea"
+$ git push
+# ¡Ya estamos trabajando con Git y GitHub!
+```
+## Commit, Push, Commit, Push.
+Ahora agreguemos un nuevo archivo:
+```shell
+$ vim NuevoArchivo.txt
+$ git status
+# Siempre checamos el estado de Git.
+$ git add .
+#Le decimos a Git que añada todos los archivos.
+$ git status
+# Checamos el estado de Git.
+$ git push
+# ¡Ya estamos trabajando con Git y GitHub!
 ```
